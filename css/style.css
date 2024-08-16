@@ -101,7 +101,23 @@ body {
     align-items: center;
     padding: 12px;
 }
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
 
+.contact-content {
+    color: black;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
 .projects-item {
     
 }
@@ -178,9 +194,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
